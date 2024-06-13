@@ -12,7 +12,7 @@ you're probably better off using a more mature project. I recommend
 [Pista](https://github.com/nerdypepper/pista) if you're looking for a
 similar vibe. If you do decide to contribute, or if you'd like to open
 an issue, I highly encourage you to do so using the
-[GitLab repository](https://gitlab.com/lwilson/felicity.zsh).
+[GitLab repository](https://gitlab.com/lwilson/felicity.zsh)
 rather than the mirror on GitHub.
 
 I use ZSH on MacOS, and I have not tested this on other platforms. If
