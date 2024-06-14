@@ -21,13 +21,34 @@ being, support for other shells is outside the scope of this project.
 
 ## Installation
 
+Felicity is very much a work in progress. Don't install it quite yet,
+unless you're ready to deal with bugs and missing features.
+
+Felicity is written in Rust, so you'll need to have Rust installed.
+See [rustup.rs](https://rustup.rs) for instructions.
+
 Install Felicity using Cargo:
 ```sh
 cargo install --git https://gitlab.com/lwilson/felicity.zsh.git
 ```
-Then, add this line to your `.zshrc`:
+If you'd like, you can run `felicity` to see what the prompt looks like.
+You can try it in a few different environments to test its features and behavior.
+
+Once you're ready, add this line to your `.zshrc`:
 ```sh
 eval "$(felicity -z)"
 ```
 Make sure you don't have any other prompt themes installed,
 as they may conflict with Felicity.
+
+## Features
+
+Felicity displays the following information:
+- (nothing yet)
+
+## Dependencies
+
+My goal is to keep Felicity as lightweight as possible. As such,
+I've only included dependencies when there's no clean way to implement
+a feature myself. Currently, Felicity depends on these crates:
+- (none yet)
