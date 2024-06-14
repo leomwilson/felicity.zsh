@@ -29,6 +29,7 @@ pub fn invalid() {
 pub fn zsh_script() {
     println!("autoload -Uz add-zsh-hook");
     println!("felicity_precmd() {{");
+    println!("  export EXIT_STATUS=$?");
     println!("  felicity -k");
     println!("  PROMPT=\"$(felicity -p)\"");
     println!("}}");

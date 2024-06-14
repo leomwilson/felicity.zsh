@@ -51,4 +51,5 @@ Felicity displays the following information:
 My goal is to keep Felicity as lightweight as possible. As such,
 I've only included dependencies when there's no clean way to implement
 a feature myself. Currently, Felicity depends on these crates:
-- (none yet)
+- [is_root](https://crates.io/crates/is_root) for detecting root users
+  (using this crate makes the process far less painful for cross-platform)
