@@ -1,5 +1,7 @@
 mod messages;
 mod prompt;
+mod colorize;
+mod catppuccin;
 
 use std::env;
 
