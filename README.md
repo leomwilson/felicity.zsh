@@ -44,12 +44,13 @@ as they may conflict with Felicity.
 ## Features
 
 Felicity displays the following information:
-- (nothing yet)
+- Exit status of the last command (prompt character is green if zero, red otherwise)
+- User elevation (prompt character is `$` for normal users, `#` for root)
 
 ## Dependencies
 
 My goal is to keep Felicity as lightweight as possible. As such,
 I've only included dependencies when there's no clean way to implement
 a feature myself. Currently, Felicity depends on these crates:
-- [is_root](https://crates.io/crates/is_root) for detecting root users
+- [is_root](https://crates.io/crates/is_root) for detecting user elevation
   (using this crate makes the process far less painful for cross-platform)
