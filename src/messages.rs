@@ -1,6 +1,10 @@
+const VERSION: Option<&str> = option_env!("CARGO_PKG_VERSION");
+
 pub fn version() {
-    println!("Felicity.zsh 0.0.1  - a clean ZSH prompt using the Catppuccin Mocha color scheme");
-    println!("(c) 2024 Leo Wilson - https://gitlab.com/lwilson/felicity.zsh");
+    println!("Felicity.zsh {} - a clean ZSH prompt using the Catppuccin Mocha color scheme",
+        VERSION.unwrap_or("(unknown version)"));
+    println!("(c) 2024 Leo Wilson, MIT License");
+    println!("See https://gitlab.com/lwilson/felicity.zsh");
 }
 
 pub fn help() {
