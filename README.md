@@ -19,3 +19,15 @@ I use ZSH on MacOS, and I have not tested this on other platforms. If
 you run into any issues on another OS, please let me know. For the time
 being, support for other shells is outside the scope of this project.
 
+## Installation
+
+Install Felicity using Cargo:
+```sh
+cargo install --git https://gitlab.com/lwilson/felicity.zsh.git
+```
+Then, add this line to your `.zshrc`:
+```sh
+eval "$(felicity -z)"
+```
+Make sure you don't have any other prompt themes installed,
+as they may conflict with Felicity.
